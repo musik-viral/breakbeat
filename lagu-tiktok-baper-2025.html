@@ -13,59 +13,85 @@
   <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
   <noscript><style amp-boilerplate>body{-webkit-animation:none;animation:none}</style></noscript>
   <style amp-custom>
-    body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #fef2f6; color: #2b2b2b; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #1a1a1a;
+      color: #f0f0f0;
+    }
     header.hero {
-      background: linear-gradient(to bottom, rgba(255,192,203,0.8), rgba(255,255,255,0.9)), url('https://images.awpgrup.cloud/img/M/lagu-tiktok-bikin-baper-terus.jpg') center/cover;
+      background: url('https://images.awpgrup.cloud/img/M/lagu-tiktok-bikin-baper-terus.jpg') center/cover no-repeat;
       text-align: center;
       padding: 80px 20px 60px;
     }
     header.hero h1 {
       font-size: 2rem;
-      color: #d63384;
+      color: #ff6ec7;
       margin: 0;
+      text-shadow: 1px 1px 3px #000;
     }
-    .container { max-width: 768px; margin: auto; padding: 20px; }
-    .highlight { background: #fff0f5; padding: 15px; border-radius: 12px; margin-bottom: 30px; border-left: 5px solid #ff69b4; }
-    h2 { color: #d63384; font-size: 1.5rem; margin-top: 30px; }
-    ul li { margin-bottom: 10px; }
-    .btn-group { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin: 20px 0; }
+    .container {
+      max-width: 768px;
+      margin: auto;
+      padding: 20px;
+    }
+    .highlight {
+      background: #2c2c2c;
+      padding: 15px;
+      border-radius: 12px;
+      margin-bottom: 30px;
+      border-left: 5px solid #ff6ec7;
+    }
+    h2 {
+      color: #ff6ec7;
+      font-size: 1.5rem;
+      margin-top: 30px;
+    }
+    ul li {
+      margin-bottom: 10px;
+    }
+    .btn-group {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 20px 0;
+    }
     .btn-link {
-      background: #ff69b4;
-      color: #fff;
+      background: #ff6ec7;
+      color: #000;
       padding: 12px 20px;
       border-radius: 25px;
       text-decoration: none;
       font-weight: bold;
       text-align: center;
-      box-shadow: 0 0 10px rgba(255,105,180,0.5);
+      box-shadow: 0 0 10px rgba(255,110,199,0.5);
     }
     .platform-table {
       width: 100%;
-      background: #fff0f5;
+      background: #2c2c2c;
       border-radius: 10px;
       overflow: hidden;
       margin-top: 20px;
     }
     .platform-table td {
       padding: 10px 15px;
-      border-bottom: 1px solid #ffd6e8;
+      border-bottom: 1px solid #444;
     }
     footer {
       text-align: center;
       padding: 20px;
       font-size: 0.9rem;
-      color: #666;
+      color: #888;
     }
-    .logo-container {
-      text-align: center;
-      padding: 20px 0 0;
+    amp-img.logo {
+      margin: 20px auto;
+      display: block;
     }
   </style>
 </head>
 <body>
-  <div class="logo-container">
-    <amp-img src="https://images.awpgrup.cloud/img/logo/agencuan/logo.png" width="180" height="60" layout="fixed" alt="Logo Portal"></amp-img>
-  </div>
+  <amp-img src="https://images.awpgrup.cloud/img/logo/agencuan/logo.png" width="120" height="120" layout="intrinsic" class="logo" alt="Logo Portal"></amp-img>
 
   <header class="hero">
     <h1>Lagu TikTok Bikin Baper Terus, Netizen: Mana Lagu yang Bikin Semangat?</h1>
@@ -111,7 +137,7 @@
   </div>
 
   <footer>
-    &copy; 2025 <a href="https://musik-viral.github.io/breakbeat/lagu-tiktok-baper-2025.html">Portal Daily News</a>
+    &copy; 2025 <a href="https://musik-viral.github.io/breakbeat/lagu-tiktok-baper-2025.html" style="color:#ff6ec7;">Portal Daily News</a>
   </footer>
 </body>
 </html>
